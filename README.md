@@ -1,7 +1,7 @@
 # ReDoSTest
 这是一个用于检测正则表达式效率的工具。
 
-A program can test the effectiveness of Regular Expressions.
+A program can test the effectiveness of Regular Expressions, avoid ReDoS.
 
 ##RoDoS是什么
 正则表达式拒绝服务攻击（ReDos）是未来可能的 DoS 演变方向之一，研究表明，编写不严谨的正则表达式可能会受到攻击，以致计算相对较短的攻击字符串（少于 50 个字符）需要数小时或更长时间。在最坏的情况下，处理时间实际上相当于输入字符串中字符数的幂数，这意味着，向字符串中增加一个字符串就会使处理时间翻倍。因此，当处理时间非常长的时候，便有可能造成DoS，影响服务的正常使用。
